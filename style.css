@@ -252,6 +252,7 @@ header {
 
 .menu-toggle {
     display: block;
+    margin-left: auto;   /* move it to the right */
 }
 
 .nav-right {
