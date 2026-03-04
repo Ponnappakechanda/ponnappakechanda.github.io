@@ -92,6 +92,7 @@ header {
 .paper-grid iframe {
     width: 30%;
     border: none;
+    height: 80vh;
 }
 
 footer {
