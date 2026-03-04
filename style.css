@@ -104,7 +104,7 @@ footer {
 
 .social-panel {
     position: fixed;
-    right: 0px;
+    right: -10px;
     top: 50%;
     transform: translateY(-50%);
     background: #0f172a;
