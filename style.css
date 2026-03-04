@@ -273,10 +273,10 @@ header {
     display: flex;
 }
     .nav-left h2{
-        font-size: 20px;
+        font-size: 18px;
         margin: 0;
     }
-
+    
 .paper-grid {
     flex-direction: column;
 }
