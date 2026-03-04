@@ -256,6 +256,7 @@ header {
     display: block;
     font-size: 28px;
     cursor: pointer;
+     margin-left: auto;
 }
 
 .nav-right {
