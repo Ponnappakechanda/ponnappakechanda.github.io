@@ -7,6 +7,12 @@ header {
     margin-bottom: 40px ;
 }
 
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
 /* Name on left */
 .nav-left h2 {
     color: black;
