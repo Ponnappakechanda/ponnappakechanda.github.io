@@ -109,6 +109,17 @@ function toggleMenu() {
     var menu = document.getElementById("nav-menu");
     menu.classList.toggle("active");
 }
+	window.addEventListener("scroll", function() {
+
+    let name = document.getElementById("header-name");
+
+    if(window.scrollY > 200){
+        name.style.opacity = "1";
+    }else{
+        name.style.opacity = "0";
+    }
+
+});
 </script>
 </body>
 </html>
