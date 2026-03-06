@@ -113,7 +113,13 @@ function toggleMenu() {
 
     let name = document.getElementById("header-name");
 
-    if(window.scrollY > 200){
+    let showPoint = 200;   // desktop default
+
+    if(window.innerWidth < 768){
+        showPoint = 350;   // mobile appears later
+    }
+
+    if(window.scrollY > showPoint){
         name.style.opacity = "1";
     }else{
         name.style.opacity = "0";
