@@ -99,10 +99,20 @@ B.Sc. students and Electronics to second-year B.Sc. students.
     <p>© 2026 Dr. Ponnappa K. P.</p>
 </footer>
 <script>
-function toggleMenu() {
-    var menu = document.getElementById("nav-menu");
-    menu.classList.toggle("active");
+
+function toggleMenu(){
+    document.getElementById("nav-menu").classList.toggle("active");
 }
+
+/* close menu when scrolling */
+
+window.addEventListener("scroll", function(){
+    let menu = document.getElementById("nav-menu");
+    if(menu.classList.contains("active")){
+        menu.classList.remove("active");
+    }
+});
+
 </script>
 </body>
 </html>
