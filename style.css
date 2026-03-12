@@ -65,6 +65,14 @@ header {
     font-size: 24px;
 }
 
+.tagline{
+  font-style: italic;
+  color: #555;
+  font-size: 18px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
 .container {
     max-width: 2100px;   /* page width */
     margin-left: auto;
